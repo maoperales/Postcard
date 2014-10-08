@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF0C54DE19D3848B00BF469D /* mariolev-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF0C54DD19D3848B00BF469D /* mariolev-1.jpg */; };
+		CF887B9F19D0F0E600FE4A1D /* IMG_0026.JPG in Resources */ = {isa = PBXBuildFile; fileRef = CF887B9E19D0F0E600FE4A1D /* IMG_0026.JPG */; };
 		CFC34DCB19D0E9F600E88056 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC34DCA19D0E9F600E88056 /* AppDelegate.swift */; };
 		CFC34DCD19D0E9F600E88056 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC34DCC19D0E9F600E88056 /* ViewController.swift */; };
 		CFC34DD019D0E9F600E88056 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFC34DCE19D0E9F600E88056 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF0C54DD19D3848B00BF469D /* mariolev-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mariolev-1.jpg"; sourceTree = "<group>"; };
+		CF887B9E19D0F0E600FE4A1D /* IMG_0026.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0026.JPG; sourceTree = "<group>"; };
 		CFC34DC519D0E9F600E88056 /* Postcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Postcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFC34DC919D0E9F600E88056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFC34DCA19D0E9F600E88056 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +94,8 @@
 		CFC34DC819D0E9F600E88056 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CF0C54DD19D3848B00BF469D /* mariolev-1.jpg */,
+				CF887B9E19D0F0E600FE4A1D /* IMG_0026.JPG */,
 				CFC34DC919D0E9F600E88056 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,9 +198,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF0C54DE19D3848B00BF469D /* mariolev-1.jpg in Resources */,
 				CFC34DD019D0E9F600E88056 /* Main.storyboard in Resources */,
 				CFC34DD519D0E9F600E88056 /* LaunchScreen.xib in Resources */,
 				CFC34DD219D0E9F600E88056 /* Images.xcassets in Resources */,
+				CF887B9F19D0F0E600FE4A1D /* IMG_0026.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +413,7 @@
 				CFC34DE619D0E9F600E88056 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFC34DE719D0E9F600E88056 /* Build configuration list for PBXNativeTarget "PostcardTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +422,7 @@
 				CFC34DE919D0E9F600E88056 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
